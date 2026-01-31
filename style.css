@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #222;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0,0,0,.1);
+  position: sticky;
+  top: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.logo {
+  color: #0a66ff;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.hero {
+  background: linear-gradient(to right,#0a66ff,#00c2a8);
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 42px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: white;
+  color: #0a66ff;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.light {
+  background: #f7f9fc;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,.1);
+}
+
+.price b {
+  color: #0a66ff;
+}
+
+footer {
+  background: #111;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
